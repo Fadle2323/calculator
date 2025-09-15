@@ -1,8 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorOnPrimary">@color/onPrimary</item>
-        <item name="android:statusBarColor">?attr/colorPrimary</item>
-        <item name="android:windowLightStatusBar">false</item>
+    <style name="Theme.Calculator" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <item name="android:windowBackground">#EAEAEA</item>
     </style>
 </resources>
